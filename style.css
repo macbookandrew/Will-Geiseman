@@ -1598,7 +1598,6 @@ body.has-header-video .site-title a {
 body.has-header-image .site-description,
 body.has-header-video .site-description {
     color: #fff;
-    opacity: 0.8;
 }
 
 .custom-logo-link {
@@ -1628,6 +1627,7 @@ body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
 body:not(.title-tagline-hidden) .site-branding-text {
     display: inline-block;
     vertical-align: middle;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .custom-header {
