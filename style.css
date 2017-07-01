@@ -53,7 +53,7 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
 html {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -184,7 +184,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -418,7 +418,7 @@ input,
 select,
 textarea {
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Raleway', "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
     font-size: 15px;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -431,6 +431,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Niconne', serif;
     clear: both;
     line-height: 1.4;
     margin: 0 0 0.75em;
@@ -479,7 +480,6 @@ h5 {
     font-size: 0.8125rem;
     font-weight: 800;
     letter-spacing: 0.15em;
-    text-transform: uppercase;
 }
 
 h6 {
@@ -1046,24 +1046,24 @@ input[type="submit"].secondary:focus {
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Raleway', "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 :-moz-placeholder {
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Raleway', "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 ::-moz-placeholder {
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Raleway', "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
     opacity: 1;
     /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Raleway', "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1567,14 +1567,12 @@ body {
 
 .site-title {
     clear: none;
+    font-family: 'Niconne', serif;
     font-size: 24px;
     font-size: 1.5rem;
-    font-weight: 800;
     line-height: 1.25;
-    letter-spacing: 0.08em;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
 }
 
 .site-title,
@@ -1894,7 +1892,6 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     font-size: 0.875rem;
     font-weight: 800;
     letter-spacing: 0.14em;
-    text-transform: uppercase;
 }
 
 .entry-header .entry-title {
