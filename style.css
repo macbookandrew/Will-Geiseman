@@ -1731,11 +1731,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
     .has-header-video .custom-header-media video,
     .has-header-video .custom-header-media iframe,
     .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
-        height: 100%;
         left: 0;
-        -o-object-fit: cover;
-        object-fit: cover;
-        top: 0;
+        top: -100px;
         -ms-transform: none;
         -moz-transform: none;
         -webkit-transform: none;
@@ -3188,7 +3185,7 @@ object {
     /* Site Branding */
 
     .site-branding {
-        padding: 3em 0;
+        padding: 4em 0;
     }
 
     /* Front Page */
