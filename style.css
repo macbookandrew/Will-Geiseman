@@ -1731,16 +1731,22 @@ body:not(.title-tagline-hidden) .site-branding-text {
     .has-header-video .custom-header-media video,
     .has-header-video .custom-header-media iframe,
     .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
-        height: 100%;
         left: 0;
-        -o-object-fit: cover;
-        object-fit: cover;
-        top: 0;
+        top: -100px;
         -ms-transform: none;
         -moz-transform: none;
         -webkit-transform: none;
         transform: none;
         width: 100%;
+    }
+
+    .home.has-header-image .custom-header-media img,
+    .home.has-header-video .custom-header-media video,
+    .home.has-header-video .custom-header-media iframe {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        top: 0;
     }
 }
 
@@ -3188,7 +3194,7 @@ object {
     /* Site Branding */
 
     .site-branding {
-        padding: 3em 0;
+        padding: 4em 0;
     }
 
     /* Front Page */
